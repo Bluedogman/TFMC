@@ -1,6 +1,7 @@
 package net.eric.teamfortressmc.item;
 
 import net.eric.teamfortressmc.TeamFortressMc;
+import net.eric.teamfortressmc.item.custom.MetalDectectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,6 +16,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SANDVICH = ITEMS.register("sandvich",
+            () -> new Item(new Item.Properties().food(ModFoods.SANDVICH)));
+
+    public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () -> new MetalDectectorItem(new Item.Properties().durability(100)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

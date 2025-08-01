@@ -2,12 +2,14 @@ package net.eric.teamfortressmc;
 
 import com.mojang.logging.LogUtils;
 import net.eric.teamfortressmc.block.ModBlocks;
+import net.eric.teamfortressmc.effect.ModEffects;
 import net.eric.teamfortressmc.item.ModCreativeModeTabs;
 import net.eric.teamfortressmc.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.event.RegisterCommandsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -32,6 +34,9 @@ public class TeamFortressMc
 
         ModBlocks.register(modEventBus);
 
+        //modEventBus.register(ModEffects.EFFECTS);
+        ModEffects.EFFECTS.register(modEventBus);
+
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
@@ -41,7 +46,6 @@ public class TeamFortressMc
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);
-
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

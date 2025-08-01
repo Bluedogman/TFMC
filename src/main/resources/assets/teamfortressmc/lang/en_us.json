@@ -3,5 +3,9 @@
   "item.teamfortressmc.raw_sapphire": "Raw Sapphire",
   "creativetab.tfmc_tab": "TFMC",
   "block.teamfortressmc.sapphire_block": "Block of sapphire",
-  "block.teamfortressmc.raw_sapphire_block": "Block of raw sapphire"
+  "block.teamfortressmc.raw_sapphire_block": "Block of raw sapphire",
+  "block.teamfortressmc.sapphire_ore": "Sapphire ore",
+  "item.teamfortressmc.metal_detector": "Metal Detector",
+  "block.teamfortressmc.sound_block": "Sound block",
+  "item.teamfortressmc.sandvich": "Sandvich"
 }
