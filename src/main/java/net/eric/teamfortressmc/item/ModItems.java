@@ -18,7 +18,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> SANDVICH = ITEMS.register("sandvich",
-            () -> new Item(new Item.Properties().food(ModFoods.SANDVICH)));
+            () -> new Item(new Item.Properties().food(ModFoods.Sandvich.SANDVICH)));
 
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDectectorItem(new Item.Properties().durability(100)));

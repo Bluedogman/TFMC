@@ -7,5 +7,7 @@
   "block.teamfortressmc.sapphire_ore": "Sapphire ore",
   "item.teamfortressmc.metal_detector": "Metal Detector",
   "block.teamfortressmc.sound_block": "Sound block",
-  "item.teamfortressmc.sandvich": "Sandvich"
+  "item.teamfortressmc.sandvich": "Sandvich",
+  "tooltip.teamfortressmc.sandvich.tooltip": "              &eThe Sandvich&7\n           (level 1 lunch box)&f\n\nEat to regain up to 300 health.\n\nAlt-fire: Share a Sandvich with a friend\n(Medium health kit)",
+  "effect.teamfortressmc.restrict_movement": "Eating food!"
 }
