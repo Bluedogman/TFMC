@@ -1,0 +1,4 @@
+// 1.20.1	2025-08-04T18:37:19.6989103	Tags for minecraft:block mod id teamfortressmc
+79918db96795734691ae3bab33943447aa614150 data/minecraft/tags/blocks/mineable/pickaxe.json
+691e13c48835c1040e9ad9ea23bb711af6872889 data/minecraft/tags/blocks/needs_iron_tool.json
+f1b0ecf59e9e4837379be8ce611c7592ea524c5f data/teamfortressmc/tags/blocks/metal_detector_valuables.json
